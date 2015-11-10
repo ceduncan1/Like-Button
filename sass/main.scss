@@ -1,0 +1,26 @@
+// Put any @imports here
+// See Readme for a list of supported ones
+
+body {
+  background: #064974;
+  // background: #88aacc;
+  // background: #539EDC;
+  text-align: center;
+  margin: 50px;
+  color: #CBCBCB;
+  // font-family: serif;
+}
+
+img {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #CBCBCB;
+  border: none;
+  color: black;
+}

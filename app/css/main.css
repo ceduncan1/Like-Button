@@ -1,0 +1,19 @@
+body {
+  background: #064974;
+  text-align: center;
+  margin: 50px;
+  color: #CBCBCB; }
+
+img {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 10px;
+  border: 2px solid black; }
+
+button {
+  border-radius: 4px;
+  background-color: #CBCBCB;
+  border: none;
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */

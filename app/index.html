@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Hello, World</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+  <div class="container" ng-controller="MyController">
+      
+    <div class="imgContainer">
+      <img src="https://goo.gl/CvGPRf">
+    </div>
+
+    <p>How much do you love these two BFFs?</p>
+    <!-- <h3>Name: {{ name }}</h3> -->
+
+    <button ng-click="incrementByOne()">
+      {{ count }} {{ message }}
+    </button>
+
+  </div>
+
+
+
+
+
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!-- root scope (app) vs little scope (mycontroller) -->
+
+
+<!--   <div class="container">
+    <button ng-click="numLikes = numLikes + 1" ng-init="numLikes=
+    0">{{ numLikes }} likes</button>
+  </div> -->
+
+
+<!-- {{ likeWd() }} -->
